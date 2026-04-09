@@ -18,6 +18,8 @@ Implementation and experimental comparison of heuristic search algorithms for op
 Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
 pip install -r requirements.txt
 ```
 
