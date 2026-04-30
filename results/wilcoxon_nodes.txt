@@ -1,0 +1,30 @@
+Config A                     Config B                        n      med A      med B          W     p_corr sig
+--------------------------------------------------------------------------------------------------------------
+A*+LinearConflict            A*+Manhattan                    4    330.000   1948.500        0.0          1 
+A*+LinearConflict            A*+PDB(5-5-5)                   4    330.000     80.500        0.0          1 
+A*+LinearConflict            IDA*+PDB(5-5-5)                 4    330.000     36.500        0.0          1 
+A*+LinearConflict            WIDA*(w=1.5)                    4    330.000    155.500        4.0          1 
+A*+LinearConflict            WeightedA*(w=1.25)              4    330.000     39.500        0.0          1 
+A*+LinearConflict            WeightedA*(w=1.5)               4    330.000     57.000        0.0          1 
+A*+LinearConflict            WeightedA*(w=2.0)               4    330.000    467.500        3.0          1 
+A*+Manhattan                 A*+PDB(5-5-5)                   4   1948.500     80.500        0.0          1 
+A*+Manhattan                 IDA*+PDB(5-5-5)                 4   1948.500     36.500        0.0          1 
+A*+Manhattan                 WIDA*(w=1.5)                    4   1948.500    155.500        0.0          1 
+A*+Manhattan                 WeightedA*(w=1.25)              4   1948.500     39.500        0.0          1 
+A*+Manhattan                 WeightedA*(w=1.5)               4   1948.500     57.000        0.0          1 
+A*+Manhattan                 WeightedA*(w=2.0)               4   1948.500    467.500        0.0          1 
+A*+PDB(5-5-5)                IDA*+PDB(5-5-5)                23   2881.000   2857.000      136.0          1 
+A*+PDB(5-5-5)                WIDA*(w=1.5)                   23   2881.000    343.000       37.0     0.0358 ***
+A*+PDB(5-5-5)                WeightedA*(w=1.25)             23   2881.000    781.000        8.0   0.002289 ***
+A*+PDB(5-5-5)                WeightedA*(w=1.5)              23   2881.000    260.000        9.0   0.002597 ***
+A*+PDB(5-5-5)                WeightedA*(w=2.0)              23   2881.000    277.000       23.0    0.01389 ***
+IDA*+PDB(5-5-5)              WIDA*(w=1.5)                   24   3098.000    431.500       34.0    0.01204 ***
+IDA*+PDB(5-5-5)              WeightedA*(w=1.25)             24   3098.000    845.000       24.0    0.01043 ***
+IDA*+PDB(5-5-5)              WeightedA*(w=1.5)              24   3098.000    274.000       15.0   0.003794 ***
+IDA*+PDB(5-5-5)              WeightedA*(w=2.0)              24   3098.000    299.500       24.0    0.01043 ***
+WIDA*(w=1.5)                 WeightedA*(w=1.25)             24    431.500    845.000      145.0          1 
+WIDA*(w=1.5)                 WeightedA*(w=1.5)              24    431.500    274.000       73.0      0.754 
+WIDA*(w=1.5)                 WeightedA*(w=2.0)              24    431.500    299.500       83.0          1 
+WeightedA*(w=1.25)           WeightedA*(w=1.5)              24    845.000    274.000       61.0     0.3882 
+WeightedA*(w=1.25)           WeightedA*(w=2.0)              24    845.000    299.500       87.0          1 
+WeightedA*(w=1.5)            WeightedA*(w=2.0)              24    274.000    299.500      140.0          1 
